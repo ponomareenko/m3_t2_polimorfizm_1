@@ -8,6 +8,10 @@ public class Company {
 
     int amount;
 
+    public void setTaxSystem(TaxSystem taxSystem) {
+        this.taxSystem = taxSystem;
+    }
+
     public Company(String title, TaxSystem taxSystem) {
         this.title = title;
         this.taxSystem = taxSystem;
